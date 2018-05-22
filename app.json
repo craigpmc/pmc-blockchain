@@ -1,0 +1,22 @@
+{
+  "name": "pmc-blockchain",
+  "description": "Heroku Blockchain application for financing",
+  "scripts": {
+  },
+  "env": {
+    "BLOCKCHAIN_LOAN_APP_URL": {
+      "required": true
+    },
+    "BLOCKCHAIN_SERVICE_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "blockchain"
+  ],
+  "buildpacks": [
+
+  ]
+}
